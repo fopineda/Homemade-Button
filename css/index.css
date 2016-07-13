@@ -1,0 +1,106 @@
+/*
+Created by: Felipe O Pineda
+fopineda95@gmail.com
+Code away :)
+*/
+
+.row [id*="initcolumns"]:hover{
+    background-color: #003c66;
+}
+
+/* Uncomment below to see where the grid is at. */
+/*
+.row {
+  border-style: solid;
+}
+
+.row .col-xs-1{
+  height: 40px;
+  width: 100px;
+  border-style: dashed;
+}
+*/
+#btn {   /* Controls the a tag dorms. */
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+
+}
+
+.row [id*="initcolumns"] {
+  line-height: 50px;
+}
+
+
+@media screen and  (min-width:320px) {
+    .row .col-xs-10 {
+      width: 33.33%;
+      height: 55px;
+      background-color: #0067B1;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      margin: 10px;
+      border-radius: 10px;  /* CONTROLS THE BOX EDGES */
+      transition: background-color 0.2s linear;
+      text-shadow: 2px 2px #0067b1;
+    }
+
+}
+
+@media screen and  (min-width:640px) {
+    .row .col-xs-10 {
+      width: 33.33%;
+      height: 55px;
+      background-color: #0067B1;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      margin: 10px;
+      border-radius: 10px;  /* CONTROLS THE BOX EDGES */
+      transition: background-color 0.2s linear;
+      text-shadow: 2px 2px #0067b1;
+    }
+
+
+}
+
+@media screen and  (min-width:768px) {
+    .row .col-xs-10 {
+      width: 33.33%;
+      height: 55px;
+      background-color: #0067B1;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      margin: 10px;
+      border-radius: 10px;  /* CONTROLS THE BOX EDGES */
+      transition: background-color 0.2s linear;
+      text-shadow: 2px 2px #0067b1;
+    }
+
+
+}
+
+@media screen and  (min-width: 992px) {
+    .row .col-xs-10 {
+      width: 33.33%;
+      height: 55px;
+      background-color: #0067B1;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      border-radius: 10px;  /* CONTROLS THE BOX EDGES */
+      margin: 10px;
+      transition: background-color 0.2s linear;
+      text-shadow: 2px 2px #0067b1;
+    }
+
+
+}
+
+@media screen and  (min-width: 1200px) {
+    .row .col-xs-10 {
+      width: 33.33%;
+      height: 55px;
+      background-color: #0067B1;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      margin: 10px;
+      transition: background-color 0.2s linear;
+      border-radius: 10px;  /* CONTROLS THE BOX EDGES */
+      text-shadow: 2px 2px #0067b1;
+    }
+
+}
